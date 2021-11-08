@@ -9,7 +9,7 @@ script:
   - yarn build
 on:
   branch: master
-# deploy:
-#   provider: heroku
-#   api_key: $HEROKU_KEY
-#   app: $HEROKU_APP
+deploy:
+  provider: heroku
+  api_key: 9f77b0fa-7b86-461c-9f2a-8f02e9e79669
+  app: iim-a4-react-hello-world-jsouc
